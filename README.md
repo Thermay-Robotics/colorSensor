@@ -5,9 +5,9 @@ The value is published as an array of int16 containing the red, the green and th
 
 ## Use It
 To use this code on your computer. 
-First upload the code in file colorSensor.ino the the OpenCR card.
+First upload the code in file colorSensor.ino the the OpenCR board.
 
-Then, run on your computer :
+Then, run the following lines on your computer. /dev/ttyACM0 is the port where the board is connected, it may change on your computer.
 ```
 roscore
 
