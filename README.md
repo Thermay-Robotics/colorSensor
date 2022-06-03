@@ -5,13 +5,22 @@ The value is published as an array of int16 containing the red, the green and th
 
 ## Use It
 To use this code on your computer. 
-First upload the code in file colorSensor.ino the the OpenCR board.
+First upload the code colorSensor.ino, in folder colorSensor, to the the OpenCR board.
 
-Then, run the following lines on your computer. /dev/ttyACM0 is the port where the board is connected, it may change on your computer.
+the to get the sensor values, run the following lines on your computer. /dev/ttyACM0 is the port where the board is connected, it may change on your computer.
 ```
 roscore
 
 rosrun rosserial_python serial_node.py /dev/ttyACM0
 
 rostopic echo colorSensorValue
+```
+
+To get the error and the color 
+```
+roslaunch calcul_erreur calcul_erreur.launch
+
+rostopic echo Error
+
+rostopic echo Color
 ```
