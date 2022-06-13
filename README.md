@@ -11,6 +11,7 @@ the to get the sensor values, run the following lines on your computer. /dev/tty
 ```
 roscore
 
+#Start connection between the openCR board and your pc, not needed on the turtlebot
 rosrun rosserial_python serial_node.py /dev/ttyACM0
 
 rostopic echo colorSensorValue
