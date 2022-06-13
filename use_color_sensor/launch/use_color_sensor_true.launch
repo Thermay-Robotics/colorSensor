@@ -1,5 +1,0 @@
-<launch>
-	<node pkg="use_color_sensor" name="useColorSensor" type="use_color_sensor.py">
-		<param name="doUse" type="boolean" value="true"/>
-	</node>
-</launch>
