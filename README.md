@@ -23,8 +23,8 @@ rostopic echo colorSensorValue
 
 ## Package use_color_sensor
 #### Use It
-To switch ON or OFF the color sensor, lauch use_color_sensor.launch and add a state (true or false).
-Parameter to true ==> switch on
+To switch ON or OFF the color sensor, lauch use_color_sensor.launch and add a state (true or false). <br>
+Parameter to true ==> switch on <br>
 Parameter to false ==> switch off
 ```
 roslaunch use_color_sensor use_color_sensor_true.launch state:=true
