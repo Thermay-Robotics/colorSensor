@@ -1,7 +1,6 @@
-# Package for the Adafruit Flora Color Sensor
+# Package to use the Adafruit Flora Color Sensor
 Contains two packages:
--colorSensor: code to use the Adafruit Flora Color Sensor and send its measure to a ros topic.
--use_color_sensor: code to choose to use and switch ON the sensor or not.
+use_color_sensor: code to choose to use and switch ON the sensor or not.
 
 
 
